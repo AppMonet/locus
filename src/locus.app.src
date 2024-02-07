@@ -2,7 +2,7 @@
  [{description,
    "MMDB reader for geolocation and ASN lookup of IP addresses,"
    " supporting MaxMind GeoLite2/GeoIP2 and other providers"},
-  {vsn, "git"},
+  {vsn, "0.1.0"},
   {registered, []},
   {mod, {locus_app, []}},
   {applications,
@@ -23,7 +23,5 @@
    ]},
 
   {licenses, ["MIT"]},
-  {links, [{"GitHub", "https://github.com/g-andrade/locus"},
-           {"GitLab", "https://gitlab.com/g-andrade/locus"}
-          ]}
+  {links, [{"GitHub", "https://github.com/AppMonet/locus"}]}
  ]}.
