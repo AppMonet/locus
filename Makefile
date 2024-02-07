@@ -55,7 +55,7 @@ doc-dry:
 	@rebar3 hex build
 
 publish:
-	@rebar3 hex publish
+	@rebar3 hex publish -r hexpm:appmonet
 
 cli:
 	@rebar3 as escriptize escriptize
